@@ -16,7 +16,7 @@ In this post I will go through a simple Jenkinsfile which defines a generic deve
 
 
 I have used a sample web app to demonstrate the flow but this can be customized to test and deploy other platform apps too(like NodeJS or simple webpage).  
-Below image gives a high level view of the process which is built in the Jenkinsfile. We will go thorugh each phase in detail.  
+Below image gives a high level view of the process which is built in the Jenkinsfile. We will go through each phase in detail.  
 
  ![Dev Flow](/images/flow.png)  
 
@@ -236,7 +236,7 @@ The docker file which is used to build the image for the build container, consis
 There is also a folder which is the default location for any code files need to be built<em>/home/codefiles</em>. This location is mounted as volume when containers are launched.  
 
 ### <strong>Tomcat Docker Image</strong>  
-More details for the image can be founcd on my Docker Hub page:  
+More details for the image can be found on my Docker Hub page:  
 https://cloud.docker.com/u/awsacdev/repository/docker/awsacdev/ubuntu_tomcat  
 
 ### <strong>CHEF Repo and Cookbook</strong> 
