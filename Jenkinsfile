@@ -4,11 +4,7 @@ pipeline{
         stage('build'){
             agent {
     
-                dockerfile {
-                    filename 'Dockerfile'
-                    dir 'build'
-                    args '-v $PWD:/home/codefiles'
-                            }
+               
                 }
             steps{
                 sh label: '', script: 'cd /home/codefiles'
